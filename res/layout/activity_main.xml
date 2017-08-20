@@ -1,0 +1,63 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+<Button 
+    android:id="@+id/gv"
+    android:onClick="onClick"
+    android:layout_margin="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#CDCDCD"
+    android:text="GridView"
+    />
+<Button 
+    android:id="@+id/sp"
+    android:onClick="onClick"
+     android:layout_margin="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#CDCDCD"
+    android:text="Spinner"
+    />
+<Button 
+    android:id="@+id/auto"
+    android:onClick="onClick"
+     android:layout_margin="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#CDCDCD"
+    android:text="AutocompleteTextView"
+    />
+    
+<Button 
+    android:id="@+id/radio"
+    android:onClick="onClick"
+     android:layout_margin="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#CDCDCD"
+    android:text="RadioButton"
+    />
+
+<Button 
+    android:id="@+id/check"
+    android:onClick="onClick"
+     android:layout_margin="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#CDCDCD"
+    android:text="Checkbox"
+    />
+<Button 
+    android:id="@+id/dialog"
+    android:onClick="onClick"
+     android:layout_margin="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#CDCDCD"
+    android:text="AlertDialog"
+    />
+</LinearLayout>
